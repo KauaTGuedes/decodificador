@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./src/imagens/logo-desafio.png" alt="logo">
+    </header>
+    <main>
+        <section class="select1">
+            <div class=" conter__texto">
+                <textarea class="caixa__texto" placeholder="Por favor insira o texto aqui!!"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="./src/imagens/atencao.png" alt="imagem de alerta">
+                <p>Atenção: Somente letras minúsculas e sem acentos</p>
+            </div>
+            <div class="contador__botao">
+                <input type="button" class="btn-criptografar" value="Criptografar">
+                <input type="button" class="btn-descriptografar" value="Descriptografar">    
+            </div>
+        </section>
+        <section class="select2">
+            <div class="contador">
+                <img src="./src/imagens/personagem-alura.png" alt="personagem-alura">
+            </div>
+            <div class="contador__paragrafo">
+                <h3>Nenhuma mensagem foi encontrada</h3>
+                <p>Por favor, digite o texto que deseja criptografar ou descriptografar!!</p>
+            </div>
+            <div class="contador__copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contador__resultado">
+                <p class="resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="./js"></script>
+</body>
+</html>
